@@ -21,7 +21,8 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new PlayerListener(), this);
 		
 		// Registering commands.
-		this.getCommand("tp").setExecutor(new MESSAGE());
+		this.getCommand("msg").setExecutor(new MESSAGE());
+		this.getCommand("message").setExecutor(new MESSAGE());
 		
 	}
 	

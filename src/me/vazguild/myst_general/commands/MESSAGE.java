@@ -33,6 +33,7 @@ public class MESSAGE implements CommandExecutor {
 					for (int i = 1; i < args.length; i++) {
 						str.append(args[i] + " ");
 					}
+					// Sends the players the messages
 					Utils.send(player, "&aMe &8» &a" + target.getName() + " &8» &7" + str.toString());
 					Utils.send(target, "&a" + player.getName() + " &8» &aMe&7: " + str.toString());
 					main.lastmsg.put(player, target);
