@@ -10,6 +10,8 @@ import me.vazguild.myst_general.Utils;
 
 public class REPLY implements CommandExecutor {
 	
+	Main main = Main.getPlugin(Main.class);
+
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player player = (Player) sender;
