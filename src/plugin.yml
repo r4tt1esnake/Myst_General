@@ -1,1 +1,11 @@
-main: me.vazguild.myst_generl.Main
+name: MystGeneral
+main: me.vazguild.myst_general.Main
+author: Vazoc/R4ttlesnake
+version: 1.0
+name: MystGeneral
+commands:
+    day:
+    night:
+    time:
+    tp:
+
