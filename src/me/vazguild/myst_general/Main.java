@@ -1,10 +1,15 @@
 package me.vazguild.myst_general;
 
+import java.util.HashMap;
+
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.vazguild.myst_general.commands.TP;
+import me.vazguild.myst_general.commands.MESSAGE;
 
 public class Main extends JavaPlugin {
+	
+	public HashMap <Player, Player> lastmsg = new HashMap<Player, Player>();
 	
 	@Override
 	public void onEnable() {
@@ -16,7 +21,8 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new PlayerListener(), this);
 		
 		// Registering commands.
-		this.getCommand("tp").setExecutor(new TP());
+		this.getCommand("msg").setExecutor(new MESSAGE());
+		this.getCommand("message").setExecutor(new MESSAGE());
 		
 	}
 	
