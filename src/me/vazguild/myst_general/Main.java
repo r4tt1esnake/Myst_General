@@ -5,7 +5,7 @@ import java.util.HashMap;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.vazguild.myst_general.commands.HELP;
+import me.vazguild.myst_general.commands.TIME;
 
 public class Main extends JavaPlugin {
 	
@@ -21,7 +21,7 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new PlayerListener(), this);
 		
 		// Registering commands.
-        this.getCommand("help").setExecutor(new HELP());
+        this.getCommand("time").setExecutor(new TIME());
 	}
 	@Override
 	public void onDisable() {
