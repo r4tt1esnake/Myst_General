@@ -16,7 +16,7 @@ public class MESSAGE implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player player = (Player) sender;
-		if(sender instanceof Player) {
+		if(sender instanceof Player) {		
 				if(args.length == 0) {
 					Utils.send(player, "&7Usage: &amsg &aPlayer &aMessage&7.");
 					return false;
