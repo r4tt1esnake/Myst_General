@@ -2,5 +2,6 @@ name: MystGeneral
 main: me.vazguild.myst_general.Main
 author: Vazoc/R4ttlesnake
 version: 1.0
+name: MystGeneral
 commands:
-    time:
+    day:
