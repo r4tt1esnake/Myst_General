@@ -1,7 +1,13 @@
+name: MystGeneral
 main: me.vazguild.myst_general.Main
 author: Vazoc/R4ttlesnake
 version: 1.0
+<<<<<<< HEAD
 name: MystGeneral
 commands:
     day:
+=======
+commands:
+    time:
+>>>>>>> 6fc3a6de8d282ae3d2ea8c74de114645f5eecb61
   

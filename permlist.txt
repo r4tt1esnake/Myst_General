@@ -1,0 +1,17 @@
+[Permissions List]
+
+Myth_General:
+myth.general.help
+myth.general.home
+myth.general.item
+myth.general.message
+myth.general.messageAll
+myth.general.reply
+myth.general.rules
+myth.general.time
+myth.general.tp
+myth.general.tpa
+myth.general.tphere
+myth.general.tpahere
+myth.general.tpaccept
+myth.general.tpdeny

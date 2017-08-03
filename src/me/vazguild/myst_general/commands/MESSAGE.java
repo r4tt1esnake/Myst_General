@@ -39,6 +39,7 @@ public class MESSAGE implements CommandExecutor {
 					Utils.send(target, "&a" + player.getName() + " &8» &aMe&7: " + str.toString());
 					main.lastmsg.put(player, target);
 					main.lastmsg.put(target, player);
+					return true;
 				}
 			}
 		return false;
