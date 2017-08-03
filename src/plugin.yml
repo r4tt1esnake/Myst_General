@@ -2,14 +2,6 @@ name: MystGeneral
 main: me.vazguild.myst_general.Main
 author: Vazoc/R4ttlesnake
 version: 1.0
-<<<<<<< HEAD
 name: MystGeneral
 commands:
     day:
-=======
-commands:
-    day:
-    night:
-
-  
->>>>>>> origin/vaz-branch
