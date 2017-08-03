@@ -5,8 +5,7 @@ version: 1.0
 name: MystGeneral
 commands:
     day:
-<<<<<<< HEAD
     night:
+    time:
+    tp:
 
-=======
->>>>>>> 09f3da674be7e09bca185b755a55d7e8a1df1cd2
