@@ -18,20 +18,26 @@ public class TIME implements CommandExecutor {
 			Utils.send(player, "&7Usage: &aTime &7<&aSet&7> &7<&aTime&7>");
 			return false;
 		}
+		
 		if(args[0].equalsIgnoreCase("set")) {
+			
 			if(args[1] != null && args[1].length() > 0) {
 				int setTime = Integer.parseInt(args[1]);
 				world.setTime(setTime);
 			}
+			
 			else {
 				Utils.send(player, "&7Usage: &aTime &7<&aSet&7> &7<&aTime&7>");
 				return false;
 			}
+			
 		}
+		
 		if(args[0].equalsIgnoreCase("day")) {
 			world.setTime(0);
 			Utils.send(player, "&7Time set to &aDay&7!");
 		}
+		
 		if(args[0].equalsIgnoreCase("night")) {
 			world.setTime(13000);
 			Utils.send(player, "&7Time set to &aNight&7!");
