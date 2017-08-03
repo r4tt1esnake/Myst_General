@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.vazguild.myst_general.commands.TIMEDAY;
+import me.vazguild.myst_general.commands.TIMENIGHT;
 
 public class Main extends JavaPlugin {
 	
@@ -22,6 +23,7 @@ public class Main extends JavaPlugin {
 		
 		// Registering commands.
         this.getCommand("day").setExecutor(new TIMEDAY());
+        this.getCommand("night").setExecutor(new TIMENIGHT());
 	}
 	@Override
 	public void onDisable() {
